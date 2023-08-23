@@ -1,0 +1,39 @@
+.score-conteiner {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.radio-conteiner svg {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: .5s;
+    margin-bottom: 0.3rem;
+}
+
+.radio-conteiner svg:hover {
+    fill: #252cad;
+}
+
+.radio-conteiner input:checked~svg {
+    color: #252cad;
+}
+
+.radio-conteiner {
+    text-align: center;
+    position: relative;
+}
+
+.radio-conteiner input {
+    opacity: 0;
+    position: absolute;
+    top: 10px;
+    left: 24.5px;
+
+}
+
+.radio-conteiner p {
+    font-style: italic;
+    font-size: 0.8rem;
+}
