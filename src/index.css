@@ -1,15 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Barlow', sans-serif;
 }
 
-body{
+body {
     background-color: #f9fafc;
 }
 
 p {
-    color: #979494;
+    color: #706a6a;
 }
-
