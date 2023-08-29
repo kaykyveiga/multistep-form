@@ -29,8 +29,8 @@ const ReviewForm = ({ data, updateFieldHandler }) => {
           <p>Satisfeito</p>
         </label>
         <label className="radio-conteiner">
-          <input type="radio" name="review" required value="very-satisfied"
-            checked={data.review === "very-satisfied"} onChange={(e) => updateFieldHandler("review", e.target.value)} />
+          <input type="radio" name="review" required value="very_satisfied"
+            checked={data.review === "very_satisfied"} onChange={(e) => updateFieldHandler("review", e.target.value)} />
           <BsFillEmojiHeartEyesFill />
           <p>Muito Satisfeito</p>
         </label>
