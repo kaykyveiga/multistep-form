@@ -6,13 +6,11 @@
     max-width: 400px;
     margin: 0 auto;
     margin-bottom: 2rem;
-
 }
 
 .step {
     text-align: center;
     background-color: #fff;
-    max-width: 85px;
     padding: 0.5rem;
     position: relative;
 }

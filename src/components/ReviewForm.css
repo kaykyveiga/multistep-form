@@ -1,7 +1,8 @@
 .score-conteiner {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    justify-content: center;
+    gap: 6%;
     margin-bottom: 1.5rem;
 }
 
